@@ -3,4 +3,54 @@
   padding: 0;
 }
 
-body {background: #fafafa}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.variant {
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.variant p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0 5px;
+}
+
+.variant img {
+  display: block;
+  margin: auto;
+}
+
+.variant li img.choise {
+  display: inline-block;
+  height: 50px;
+  margin: 30px 5px;
+}
+
+.variant ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.variant ul li {
+}
+
+.variant ul li:first-child {
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 15px;
+}
